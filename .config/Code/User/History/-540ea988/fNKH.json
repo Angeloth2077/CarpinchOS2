@@ -1,0 +1,27 @@
+{
+    "workbench.colorTheme": "Blueberry dark theme",
+    "window.menuBarVisibility": "toggle",
+    "keyboard.dispatch": "keyCode",
+    "vim.commandLineModeKeyBindings": [
+    
+    ],
+    "vim.commandLineModeKeyBindingsNonRecursive": [
+    
+    ],
+    "vim.insertModeKeyBindings": [
+    
+    ],
+    "workbench.editor.untitled.hint": "hidden",
+    "tabnine.experimentalAutoImports": true,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "powermode.shake.intensity": 0,
+    "powermode.presets": "magic",
+    "powermode.combo.counterSize": 2,
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.fontFamily": "OverpassMono Nerd Font"
+}

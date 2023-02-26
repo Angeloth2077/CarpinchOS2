@@ -1,0 +1,10 @@
+2023-02-25 11:27:35.944 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-25 11:27:36.820 [error] Extension 'tabnine.tabnine-vscode' wants API proposal 'inlineCompletions' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-25 11:27:36.857 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-02-25 11:27:38.159 [error] [Extension Host] /bin/sh: line 1: hostname: command not found
+2023-02-25 11:27:40.023 [info] [perf] Render performance baseline is 206ms
+2023-02-25 11:27:40.783 [error] [Extension Host] validating /home/angel/.config/Code/User/globalStorage/tabnine.tabnine-vscode/binaries/4.4.249/x86_64-unknown-linux-musl/TabNine timeout
+2023-02-25 11:27:41.405 [error] [Extension Host] Error: Binary request timed out. {"State":{}}
+    at Timeout._onTimeout (/home/angel/.vscode/extensions/tabnine.tabnine-vscode-3.6.38/out/extension.js:17:33014)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)

@@ -1,0 +1,9 @@
+2023-02-25 11:27:38.014 [info] Starting worker process with pid 1442 (type: fileWatcher, window: 1).
+2023-02-25 11:27:41.899 [info] Getting Manifest... eamodio.gitlens
+2023-02-25 11:27:42.662 [info] Installing extension: eamodio.gitlens
+2023-02-25 11:27:45.145 [warning] Extension signature verification: eamodio.gitlens. Verification status: UnknownError.
+2023-02-25 11:27:45.533 [info] Extracted extension to /home/angel/.vscode/extensions/.35f7f85f-f289-4a70-9c55-42c2e5643fd4: eamodio.gitlens
+2023-02-25 11:27:45.555 [info] Renamed to /home/angel/.vscode/extensions/eamodio.gitlens-13.3.1
+2023-02-25 11:27:45.560 [info] Extracting completed. eamodio.gitlens
+2023-02-25 11:27:45.577 [info] Extension installed successfully: eamodio.gitlens
+2023-02-25 11:27:45.626 [info] Marked extension as uninstalled eamodio.gitlens-13.3.0
