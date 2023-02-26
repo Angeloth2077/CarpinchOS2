@@ -1,4 +1,0 @@
-2023-02-25 18:58:15.127 [info] Starting worker process with pid 52462 (type: fileWatcher, window: 1).
-2023-02-25 18:58:16.420 [info] Deleted from disk eamodio.gitlens /home/angel/.vscode/extensions/eamodio.gitlens-13.3.0
-2023-02-25 19:54:41.574 [info] Starting worker process with pid 116692 (type: fileWatcher, window: 3).
-2023-02-25 19:54:42.818 [info] Worker process with pid 116692 terminated normally (type: fileWatcher, window: 3).

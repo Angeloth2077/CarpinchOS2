@@ -3,8 +3,9 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/angel/Downloads": "__default__profile__",
-            "file:///home/angel/.config": "__default__profile__",
-            "file:///home/angel/.ssh": "__default__profile__"
+            "file:///home/angel/.ssh": "__default__profile__",
+            "file:///home/angel/.mozilla/firefox/05sctkad.default-release": "__default__profile__",
+            "file:///home/angel/.config": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -14,10 +15,10 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/angel/.config"
+                "folderUri": "file:///home/angel/.mozilla/firefox/05sctkad.default-release"
             },
             {
-                "folderUri": "file:///home/angel/.ssh"
+                "folderUri": "file:///home/angel/.config"
             }
         ],
         "emptyWindows": []
@@ -74,21 +75,11 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/angel/.ssh",
-                                        "path": "/home/angel/.ssh",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.ssh"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -100,6 +91,28 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/.mozilla/firefox/05sctkad.default-release",
+                                        "path": "/home/angel/.mozilla/firefox/05sctkad.default-release",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.mozilla/firefox/05sctkad.default-release"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/.ssh",
+                                        "path": "/home/angel/.ssh",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.ssh"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -359,13 +372,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -723,10 +734,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -750,8 +757,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -772,8 +778,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1674,7 +1679,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 268,
             "statusBarHeight": 22,
             "windowBorder": false
         }

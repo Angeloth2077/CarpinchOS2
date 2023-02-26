@@ -19,9 +19,5 @@
     "powermode.shake.intensity": 0,
     "powermode.presets": "magic",
     "powermode.combo.counterSize": 2,
-    "liveServer.settings.CustomBrowser": "microsoft-edge",
-    "[python]": {
-        "editor.formatOnType": true
-    },
-    "editor.fontFamily": "OverpassMono Nerd Font"
+    "liveServer.settings.CustomBrowser": "microsoft-edge"
 }
