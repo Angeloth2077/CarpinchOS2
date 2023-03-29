@@ -2,12 +2,22 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/angel/Downloads": "__default__profile__",
             "file:///home/angel/.ssh": "__default__profile__",
             "file:///home/angel/.mozilla/firefox/05sctkad.default-release": "__default__profile__",
-            "file:///home/angel/.config": "__default__profile__"
+            "file:///home/angel/work/.config.code-workspace": "__default__profile__",
+            "file:///home/angel/work": "__default__profile__",
+            "file:///home/angel/.config/BetterDiscord/themes": "__default__profile__",
+            "file:///home/angel/Downloads": "__default__profile__",
+            "file:///home/angel/rofi": "__default__profile__",
+            "file:///home/angel/work/Studies/Python": "__default__profile__",
+            "file:///home/angel/.config": "__default__profile__",
+            "file:///home/angel/work/Studies": "__default__profile__",
+            "file:///home/angel/.config/hypr": "__default__profile__",
+            "file:///home/angel/.config/kitty": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1680024404973": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "133342fab6b9877c0e744d0cd6a17b00c750c6caba1581ddb88996fd8c1a305d",
@@ -15,24 +25,34 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/angel/.mozilla/firefox/05sctkad.default-release"
+                "folderUri": "file:///home/angel/.config"
             },
             {
-                "folderUri": "file:///home/angel/.config"
+                "folderUri": "file:///home/angel/work/Studies"
+            },
+            {
+                "folderUri": "file:///home/angel/.config/hypr"
+            },
+            {
+                "folderUri": "file:///home/angel/.config/kitty"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1680024404973"
+            }
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/angel/.config",
-            "backupPath": "/home/angel/.config/Code/Backups/5a11ef5e09200dd3b71b0b67a07a07ed",
+            "folder": "file:///home/angel/.config/kitty",
+            "backupPath": "/home/angel/.config/Code/Backups/53e50e5303ff0328440d50d5f31e92c7",
             "uiState": {
                 "mode": 1,
-                "x": 10,
-                "y": 41,
-                "width": 1900,
-                "height": 1029
+                "x": 965,
+                "y": 61,
+                "width": 925,
+                "height": 989
             }
         },
         "openedWindows": []
@@ -85,6 +105,39 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/angel/.config/kitty",
+                                        "path": "/home/angel/.config/kitty",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/kitty"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/.config/hypr",
+                                        "path": "/home/angel/.config/hypr",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/hypr"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/work/Studies",
+                                        "path": "/home/angel/work/Studies",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/work/Studies"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/angel/.config",
                                         "path": "/home/angel/.config",
                                         "scheme": "file"
@@ -96,23 +149,23 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/angel/.mozilla/firefox/05sctkad.default-release",
-                                        "path": "/home/angel/.mozilla/firefox/05sctkad.default-release",
+                                        "external": "file:///home/angel/work/Studies/Python",
+                                        "path": "/home/angel/work/Studies/Python",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.mozilla/firefox/05sctkad.default-release"
+                                    "label": "~/work/Studies/Python"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/angel/.ssh",
-                                        "path": "/home/angel/.ssh",
+                                        "external": "file:///home/angel/rofi",
+                                        "path": "/home/angel/rofi",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.ssh"
+                                    "label": "~/rofi"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -126,7 +179,73 @@
                                     "label": "~/Downloads"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/.config/BetterDiscord/themes",
+                                        "path": "/home/angel/.config/BetterDiscord/themes",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/BetterDiscord/themes"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/work",
+                                        "path": "/home/angel/work",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/work"
+                                },
+                                {
+                                    "id": "openRecentWorkspace",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/work/.config.code-workspace",
+                                        "path": "/home/angel/work/.config.code-workspace",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/work/.config (Workspace)"
+                                },
+                                {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/.config/Code/Preferences",
+                                        "path": "/home/angel/.config/Code/Preferences",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/Code/Preferences"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/work/Studies/Python/project1/print%28%22hello%22%29.py",
+                                        "path": "/home/angel/work/Studies/Python/project1/print(\"hello\").py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/work/Studies/Python/project1/print(\"hello\").py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/Downloads/com.google.Chrome.flatpakref",
+                                        "path": "/home/angel/Downloads/com.google.Chrome.flatpakref",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/com.google.Chrome.flatpakref"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -306,10 +425,6 @@
                                 {
                                     "id": "settings.filterByOnline",
                                     "label": "&&Online Services Settings"
-                                },
-                                {
-                                    "id": "settings.filterByTelemetry",
-                                    "label": "Telemetry Settings"
                                 }
                             ]
                         }
@@ -1413,9 +1528,9 @@
                 "label": "Ctrl+B",
                 "userSettingsLabel": "ctrl+b"
             },
-            "workbench.action.togglePanel": {
-                "label": "Ctrl+J",
-                "userSettingsLabel": "ctrl+j"
+            "workbench.action.toggleAuxiliaryBar": {
+                "label": "Ctrl+Alt+B",
+                "userSettingsLabel": "ctrl+alt+b"
             },
             "workbench.action.zoomIn": {
                 "label": "Ctrl+=",
@@ -1679,9 +1794,10 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 268,
+            "sideBarWidth": 203,
             "statusBarHeight": 22,
             "windowBorder": false
         }
-    }
+    },
+    "window.experimental.useSandbox": true
 }

@@ -19,5 +19,10 @@
     "powermode.shake.intensity": 0,
     "powermode.presets": "magic",
     "powermode.combo.counterSize": 2,
-    "liveServer.settings.CustomBrowser": "microsoft-edge"
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "path-intellisense.showHiddenFiles": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "glassit.alpha": 90
 }
