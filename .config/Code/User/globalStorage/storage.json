@@ -5,19 +5,18 @@
             "file:///home/angel/.ssh": "__default__profile__",
             "file:///home/angel/.mozilla/firefox/05sctkad.default-release": "__default__profile__",
             "file:///home/angel/work/.config.code-workspace": "__default__profile__",
-            "file:///home/angel/work": "__default__profile__",
             "file:///home/angel/.config/BetterDiscord/themes": "__default__profile__",
             "file:///home/angel/Downloads": "__default__profile__",
             "file:///home/angel/rofi": "__default__profile__",
-            "file:///home/angel/work/Studies/Python": "__default__profile__",
             "file:///home/angel/.config": "__default__profile__",
+            "file:///home/angel/.config/kitty": "__default__profile__",
+            "file:///home/angel/work": "__default__profile__",
+            "file:///home/angel/.config/waybar": "__default__profile__",
             "file:///home/angel/work/Studies": "__default__profile__",
-            "file:///home/angel/.config/hypr": "__default__profile__",
-            "file:///home/angel/.config/kitty": "__default__profile__"
+            "file:///home/angel/work/Studies/Python": "__default__profile__",
+            "file:///home/angel/.config/hypr": "__default__profile__"
         },
-        "emptyWindows": {
-            "1680024404973": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "133342fab6b9877c0e744d0cd6a17b00c750c6caba1581ddb88996fd8c1a305d",
@@ -25,33 +24,20 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/angel/.config"
-            },
-            {
-                "folderUri": "file:///home/angel/work/Studies"
-            },
-            {
                 "folderUri": "file:///home/angel/.config/hypr"
-            },
-            {
-                "folderUri": "file:///home/angel/.config/kitty"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1680024404973"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/angel/.config/kitty",
-            "backupPath": "/home/angel/.config/Code/Backups/53e50e5303ff0328440d50d5f31e92c7",
+            "folder": "file:///home/angel/.config/hypr",
+            "backupPath": "/home/angel/.config/Code/Backups/79bbb933caf2593f461761c29ede799f",
             "uiState": {
                 "mode": 1,
-                "x": 965,
+                "x": 30,
                 "y": 61,
-                "width": 925,
+                "width": 1860,
                 "height": 989
             }
         },
@@ -95,22 +81,10 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/angel/.config/kitty",
-                                        "path": "/home/angel/.config/kitty",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.config/kitty"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -127,6 +101,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/angel/work/Studies/Python",
+                                        "path": "/home/angel/work/Studies/Python",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/work/Studies/Python"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/angel/work/Studies",
                                         "path": "/home/angel/work/Studies",
                                         "scheme": "file"
@@ -138,23 +123,45 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/angel/.config/waybar",
+                                        "path": "/home/angel/.config/waybar",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/waybar"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/work",
+                                        "path": "/home/angel/work",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/work"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/.config/kitty",
+                                        "path": "/home/angel/.config/kitty",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/kitty"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/angel/.config",
                                         "path": "/home/angel/.config",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/.config"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/angel/work/Studies/Python",
-                                        "path": "/home/angel/work/Studies/Python",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/work/Studies/Python"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -188,28 +195,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config/BetterDiscord/themes"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/angel/work",
-                                        "path": "/home/angel/work",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/work"
-                                },
-                                {
-                                    "id": "openRecentWorkspace",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/angel/work/.config.code-workspace",
-                                        "path": "/home/angel/work/.config.code-workspace",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/work/.config (Workspace)"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -716,8 +701,7 @@
                                 },
                                 {
                                     "id": "editor.action.toggleMinimap",
-                                    "label": "&&Minimap",
-                                    "checked": true
+                                    "label": "&&Minimap"
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
@@ -847,6 +831,10 @@
                     {
                         "id": "workbench.view.extensions",
                         "label": "E&&xtensions"
+                    },
+                    {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1209,8 +1197,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1545,6 +1532,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
             },
+            "workbench.action.splitEditorUp": {
+                "label": "Ctrl+K Ctrl+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
             "workbench.action.splitEditorInGroup": {
                 "label": "Ctrl+K Ctrl+Shift+\\",
                 "isNative": false,
@@ -1766,38 +1758,32 @@
                 "label": "Ctrl+K Ctrl+R",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+r"
-            },
-            "workbench.action.toggleDevTools": {
-                "label": "Ctrl+Shift+I",
-                "userSettingsLabel": "ctrl+shift+i"
             }
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1a1b26",
+    "themeBackground": "#0a0e14",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#787c99",
-            "background": "#1a1b26",
-            "editorBackground": "#1a1b26",
-            "titleBarBackground": "#16161e",
-            "activityBarBackground": "#16161e",
-            "sideBarBackground": "#16161e",
-            "statusBarBackground": "#16161e",
-            "statusBarNoFolderBackground": "#16161e",
-            "windowBorder": "#0d0f17"
+            "foreground": "#3d424d",
+            "background": "#0a0e14",
+            "editorBackground": "#0a0e14",
+            "titleBarBackground": "#0a0e14",
+            "activityBarBackground": "#0a0e14",
+            "sideBarBackground": "#0a0e14",
+            "statusBarBackground": "#0a0e14",
+            "statusBarNoFolderBackground": "#0d1016"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 203,
+            "sideBarWidth": 204,
             "statusBarHeight": 22,
             "windowBorder": false
         }
-    },
-    "window.experimental.useSandbox": true
+    }
 }

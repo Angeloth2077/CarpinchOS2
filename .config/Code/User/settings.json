@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Tokyo Night",
+    "workbench.colorTheme": "Red One Dark Pro | Dark",
     "window.menuBarVisibility": "toggle",
     "keyboard.dispatch": "keyCode",
     "vim.commandLineModeKeyBindings": [
@@ -24,5 +24,6 @@
     "[python]": {
         "editor.formatOnType": true
     },
-    "glassit.alpha": 90
+    "glassit.alpha": 90,
+    "editor.minimap.enabled": false
 }

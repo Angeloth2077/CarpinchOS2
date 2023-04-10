@@ -13,13 +13,13 @@
          "disable-scroll": true,
     	   "on-click": "activate",
          "all-outputs": true,
-         "format": "{name} {icon}",
+         "format": "{icon}",
          "format-icons": {
-             "1":"",
-             "2":"",
-             "3":"",
-             "4":"",
-             "5":""
+             "1":"",
+             "2":"",
+             "3":"",
+             "4":"󰙯",
+             "5":""
          }
      },
     "keyboard-state": {

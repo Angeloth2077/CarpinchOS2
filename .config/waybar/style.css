@@ -50,23 +50,24 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0 5px;
+    padding: 0 5px 0 5px;
     background-color: rgba(22,22,31,255);
     color: rgba(255, 255, 255, 0.219);
     margin-top: 7px;
 }
 #workspaces :first-child{
     border-radius: 8px 0px 0px 8px;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 #workspaces :last-child{
     border-radius: 0px 8px 8px 0px;
+    margin-right: 6px;
 }
 /*Colors for each workspace when active*/
 #workspaces :nth-child(1).active{color: rgb(255, 0, 119)}
-#workspaces :nth-child(2).active{color: rgb(124, 46, 248)}
+#workspaces :nth-child(2).active{color: rgb(255, 174, 0)}
 #workspaces :nth-child(3).active{color: rgb(0, 255, 157)}
-#workspaces :nth-child(4).active{color: rgb(255, 187, 0)}
+#workspaces :nth-child(4).active{color: rgb(114, 137, 218)}
 #workspaces :nth-child(5).active{color: rgb(0, 217, 255)}
 
 #workspaces button:hover {
