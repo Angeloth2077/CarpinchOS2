@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Red One Dark Pro | Dark",
+    "workbench.colorTheme": "Evondev Dracula High Contrast",
     "window.menuBarVisibility": "toggle",
     "keyboard.dispatch": "keyCode",
     "vim.commandLineModeKeyBindings": [
@@ -25,5 +25,5 @@
         "editor.formatOnType": true
     },
     "glassit.alpha": 90,
-    "editor.minimap.enabled": false
+    "vsicons.dontShowNewVersionMessage": true
 }
