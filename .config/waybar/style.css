@@ -65,10 +65,11 @@ button:hover {
 }
 /*Colors for each workspace when active*/
 #workspaces :nth-child(1).active{color: rgb(255, 0, 119)}
-#workspaces :nth-child(2).active{color: rgb(255, 174, 0)}
-#workspaces :nth-child(3).active{color: rgb(0, 255, 157)}
-#workspaces :nth-child(4).active{color: rgb(114, 137, 218)}
-#workspaces :nth-child(5).active{color: rgb(0, 217, 255)}
+#workspaces :nth-child(2).active{color: rgb(255, 0, 119)}
+#workspaces :nth-child(3).active{color: rgb(255, 174, 0)}
+#workspaces :nth-child(4).active{color: rgb(0, 255, 157)}
+#workspaces :nth-child(5).active{color: rgb(114, 137, 218)}
+#workspaces :nth-child(6).active{color: rgb(0, 217, 255)}
 
 #workspaces button:hover {
     background: rgb(27, 23, 66);

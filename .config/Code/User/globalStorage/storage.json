@@ -12,9 +12,9 @@
             "file:///home/angel/.config/kitty": "__default__profile__",
             "file:///home/angel/work": "__default__profile__",
             "file:///home/angel/.config/waybar": "__default__profile__",
-            "file:///home/angel/work/Studies": "__default__profile__",
             "file:///home/angel/work/Studies/Python": "__default__profile__",
-            "file:///home/angel/.config/hypr": "__default__profile__"
+            "file:///home/angel/.config/hypr": "__default__profile__",
+            "file:///home/angel/work/Studies": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -24,15 +24,15 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/angel/.config/hypr"
+                "folderUri": "file:///home/angel/work/Studies"
             }
         ],
         "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/angel/.config/hypr",
-            "backupPath": "/home/angel/.config/Code/Backups/79bbb933caf2593f461761c29ede799f",
+            "folder": "file:///home/angel/work/Studies",
+            "backupPath": "/home/angel/.config/Code/Backups/e035fff6c3476fdd78589c8f176e7888",
             "uiState": {
                 "mode": 1,
                 "x": 30,
@@ -81,10 +81,22 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/angel/work/Studies",
+                                        "path": "/home/angel/work/Studies",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/work/Studies"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -107,17 +119,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/work/Studies/Python"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/angel/work/Studies",
-                                        "path": "/home/angel/work/Studies",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/work/Studies"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -300,6 +301,28 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "issue.copyGithubPermalink",
+                                    "label": "Copy GitHub Permalink"
+                                },
+                                {
+                                    "id": "issue.copyMarkdownGithubPermalink",
+                                    "label": "Copy GitHub Permalink as Markdown"
+                                },
+                                {
+                                    "id": "issue.copyGithubHeadLink",
+                                    "label": "Copy GitHub Head Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 },
@@ -462,6 +485,22 @@
                     {
                         "id": "editor.action.clipboardCopyAction",
                         "label": "&&Copy"
+                    },
+                    {
+                        "id": "submenuitem.MenubarCopy",
+                        "label": "Copy As",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "issue.copyGithubPermalink",
+                                    "label": "Copy GitHub Permalink"
+                                },
+                                {
+                                    "id": "issue.copyMarkdownGithubPermalink",
+                                    "label": "Copy GitHub Permalink as Markdown"
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "editor.action.clipboardPasteAction",
@@ -763,13 +802,6 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.action.splitEditorInGroup",
-                                    "label": "Split in &&Group"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -835,10 +867,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -862,7 +890,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -874,7 +903,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -883,7 +913,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1539,11 +1570,6 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
-            "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
-            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1557,8 +1583,9 @@
                 "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
-                "label": "Ctrl+Shift+G",
-                "userSettingsLabel": "ctrl+shift+g"
+                "label": "Ctrl+Shift+G G",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+shift+g g"
             },
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
@@ -1764,19 +1791,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#191a2e",
+    "themeBackground": "#0f111a",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#f8f8f2",
-            "background": "#191a2e",
-            "editorBackground": "#191a2e",
-            "titleBarBackground": "#1e1f35",
-            "activityBarBackground": "#191a2e",
-            "sideBarBackground": "#191a2e",
-            "statusBarBackground": "#191a21",
-            "statusBarNoFolderBackground": "#191a21"
+            "foreground": "#cccccc",
+            "background": "#0f111a",
+            "editorBackground": "#0f111a",
+            "titleBarBackground": "#1f2224",
+            "activityBarBackground": "#090b10",
+            "sideBarBackground": "#090b10",
+            "statusBarBackground": "#090b10",
+            "statusBarNoFolderBackground": "#0f111a"
         },
         "layoutInfo": {
             "sideBarSide": "left",

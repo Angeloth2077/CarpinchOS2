@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Evondev Dracula High Contrast",
+    "workbench.colorTheme": "Material Darker",
     "window.menuBarVisibility": "toggle",
     "keyboard.dispatch": "keyCode",
     "vim.commandLineModeKeyBindings": [
